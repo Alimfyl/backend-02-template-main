@@ -8,5 +8,8 @@
     "dev": "",
     "start": ""
   },
-  "author": ""
+  "author": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
