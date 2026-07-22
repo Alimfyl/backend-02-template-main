@@ -51,8 +51,8 @@ const updateBook = async (request, response, next) => {
       request.params.id,
       request.body,
       {
-        new: true,
-        runValidators: true,
+       returnDocument: "after",
+       runValidators: true,
       },
     );
 

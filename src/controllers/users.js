@@ -51,7 +51,7 @@ const updateUser = async (request, response, next) => {
       request.params.id,
       request.body,
       {
-        new: true,
+        returnDocument: "after",
         runValidators: true,
       },
     );
